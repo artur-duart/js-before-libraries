@@ -101,5 +101,15 @@ if (user3.address) {
 console.log(user3.address?.zip?.code ?? 'Não informado');
 console.log(user3.address?.showFullAddress?.());
 
-// Array Methods
+// Map
+// const newArray = array.map(i => {
+// 	return i % 2 === 0 ? i * 10 : i;
+// });
+
+// Filter
+// const newArray = array.filter((i) => i % 2 === 0).map((i) => i * 10);
+// console.log(newArray);
+
+// Every
 const array = [1, 2, 3, 4, 5];
+console.log(array.every(i => typeof i === 'number'));

@@ -11,3 +11,6 @@ This is a project to practice basic JavaScript concepts before moving on to a li
 - Rest operator
 - Short Syntax
 - Optional Chaining
+- Map
+- Filter
+- Every
