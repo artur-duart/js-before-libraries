@@ -14,3 +14,9 @@ This is a project to practice basic JavaScript concepts before moving on to a li
 - Map
 - Filter
 - Every
+- Some
+- Find
+- Find Index
+- Reduce
+- Template Literals
+- Promises
