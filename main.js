@@ -1,15 +1,3 @@
-async function searchGithubData() {
-	try {
-		const response = await fetch(
-			'<https://api.github.com/users/artur-duart>'
-		);
-		const body = await response.json();
+import { sum } from './lib/math.js';
 
-		console.log(body);
-	} catch (err) {
-		console.log(err);
-	} finally {
-		console.log('done');
-	}
-}
-searchGithubData();
+console.log(sum(2, 3))
